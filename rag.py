@@ -10,8 +10,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-openai_api_key = os.getenv("OPENAI_API_KEY")
-openai_base_url = os.getenv("OPENAI_BASE_URL")
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+os.environ["OPENAI_BASE_URL"] = st.secrets["OPENAI_BASE_URL"]
 
 
 llm = ChatOpenAI(
