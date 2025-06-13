@@ -5,6 +5,7 @@ from langchain.chains import RetrievalQA
 from langchain_community.chat_models import ChatOpenAI
 from langchain.schema import Document
 import os
+import streamlit as st
 from dotenv import load_dotenv
 
 load_dotenv()
