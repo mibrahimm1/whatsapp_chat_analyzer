@@ -44,7 +44,7 @@ def fetch_activity_stats(df):
 
 def create_wordcloud(selected_user, df):
     # Load Stop Words Mask
-    f = open('files\stopwords.txt', 'r')
+    f = open('files/stopwords.txt', 'r')
     stop_words = f.read()
 
     if selected_user != 'Overall':
