@@ -1,0 +1,15 @@
+[server]
+headless = true
+
+[theme]
+base="dark"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showSidebarNavigation = false
+
+[general]
+title = "WhatsApp Chat Analyzer with ChatGuru"
+icon = "📊"
